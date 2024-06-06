@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@dfinity/agent": "1.3.0",
-    "@dfinity/candid": "1.3.0",
+    "@dfinity/candid": "^1.3.0",
     "@dfinity/principal": "1.3.0",
     "assert": "2.0.0",
     "buffer": "6.0.3",
@@ -37,5 +37,8 @@
     "last 2 firefox version",
     "last 2 safari version",
     "last 2 edge version"
-  ]
+  ],
+  "dependencies": {
+    "@local-civics/candid-ui": "^0.0.24-beta.85"
+  }
 }
